@@ -46,7 +46,7 @@ function App() {
       <BrowserRouter>
       <ComposantHeader title="Une application avec React!"/>
 
-
+      <div style={{ paddingTop: "90px" }}>
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/profil" element={<Profil user={utilisateur}/>}/>
@@ -55,7 +55,7 @@ function App() {
       <Route path='/auth' element={<Auth />} />
 
       </Routes>
-
+      </div>
 
       </BrowserRouter>
       
