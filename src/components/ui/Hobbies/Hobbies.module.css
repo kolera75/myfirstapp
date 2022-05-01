@@ -1,0 +1,23 @@
+.item {
+    list-style-type: none;
+    color: whitesmoke;
+  }
+  
+  .tableContainer {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .icon {
+    width: 40px;
+  }
+  .textData {
+    text-align: start;
+    color: whitesmoke;
+  }
+  .headerData {
+    color: whitesmoke;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  
